@@ -4,11 +4,7 @@
   "description": "A cross-platform styling library for React and React Native.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "clean": "rm -rf dist",
-    "prepublish": "npm run clean && npm run build"
-  },
+  "scripts": {},
   "peerDependencies": {
     "react": "^17.0.1 || ^18.0.0"
   },
